@@ -73,9 +73,9 @@ public class ImageRoatation {
                 {0, 0, 1}
         };
 
-        int rotation = 270;
+        int rotation = 180;
         int verticalFlip = 0;
-        int horizontalFlip = 1;
+        int horizontalFlip = 0;
 
         int[][] transformedImage = transformImage(image, rotation, verticalFlip, horizontalFlip);
 
